@@ -15,7 +15,7 @@ A Chrome extension that automatically saves unsent ChatGPT prompts locally for e
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/chatgpt-prompt-recovery-extension.git
+git clone git@github.com:bizprat/chatgpt-prompt-recovery-chrome-extension.git
 ```
 
 2. Install dependencies:
