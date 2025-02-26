@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Prompt Saver",
+  "version": "1.0",
+  "description": "Saves unsent ChatGPT prompts locally for each conversation",
+  "icons": {
+    "16": "icons/icon16.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    "js": ["dist/content.js"],
+    "run_at": "document_end"
+  }],
+  "permissions": ["storage"],
+  "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"]
+}
